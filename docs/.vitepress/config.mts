@@ -9,6 +9,7 @@ export default defineConfig({
   title: "Ivy Labs",
   description: "常春藤下，指绘星河",
 
+  base: '/', //网站部署的路径，默认根目录
   lastUpdated: true, //首次配置不会立即生效，需git提交后爬取时间戳
 
   //markdown配置
