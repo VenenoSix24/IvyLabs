@@ -8,15 +8,16 @@
 >
 > 恰似墨山留雪隙，偷藏梅影，暗递冬信
 
----
+
 
 ## 🌳 关于此地
 
 <p align="center">
   你好，我是 <strong>Ivyris</strong>
   <br><br>
-  这里是常春藤下的一片绿荫，<br>
-  庇护着稚嫩的灵感与萌芽的梦想。
+  这里是<strong>常春藤</strong>下的一片绿荫，
+  <br><br>
+  庇护着<strong>稚嫩的灵感</strong>与<strong>萌芽的梦想</strong>。
   <br><br>
   我在这里，将须臾的遐想，付诸于字符的雕琢，静待其绽放或消亡。
   <br><br>
