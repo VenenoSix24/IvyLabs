@@ -5,13 +5,12 @@
 > ### 常春藤下，指绘星河
 >
 > 星河璀璨，亦有暗斑
+>
 > 恰似墨山留雪隙，偷藏梅影，暗递冬信
 
 ---
 
 ## 🌳 关于此地
-
-
 
 <p align="center">
   你好，我是 <strong>Ivyris</strong>
@@ -25,7 +24,6 @@
   <br><br>
   愿你在此，能看到作品最终的模样，也能窥见其诞生之初的<strong>微光与尘埃</strong>。
 </p>
-
 
 ## 🛠️ 技术栈
 
@@ -66,6 +64,6 @@
 
 ## 📄 开源许可 (License)
 
-本站源码采用 [MIT License](https://opensource.org/licenses/MIT) 许可。
+本站源码采用 [MIT License](https://github.com/VenenoSix24/IvyLabs/blob/main/LICENSE) 许可。
 
 站内所有原创内容（文章、笔记等）的版权归作者所有，转载请注明出处。
