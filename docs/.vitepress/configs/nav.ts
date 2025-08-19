@@ -9,7 +9,8 @@ export const nav: DefaultTheme.NavItem[] = [
         items: [
           { text: '快速上手', link: '/vitepress1' },
           { text: '页面配置', link: '/vitepress2' },
-          { text: 'Frontmatter', link: '/vitepress3' }
+          { text: 'Frontmatter', link: '/vitepress3' },
+          { text: '域名托管到CF', link: '/sp2cf' }
         ]
       },
       { text: '关于', link: '/about' },

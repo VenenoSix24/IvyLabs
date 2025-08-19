@@ -1,6 +1,7 @@
 ---
 layout: doc
 layoutClass: m-nav-layout
+comment: false
 sidebar: false
 prev: false
 next: false
