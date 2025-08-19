@@ -1,0 +1,20 @@
+/* .vitepress/theme/style/custom.css */
+
+/* 让 Hero 区域的 tagline 能够识别并显示换行 */
+.home-page .VPHero .tagline {
+  white-space: pre-wrap;
+}
+
+/* 核心修改：精准调整 tagline 的上内边距 */
+.home-page .VPHero .tagline {
+  /* 你可以减小这个值来缩小间距，比如 12px、8px 甚至 0 */
+  padding-top: 0px;
+}
+
+/* 微调 “常春藤下...” (即 .text 元素) 的上下外边距 */
+#app .home-page .VPHero .text {
+  /* 调整与上方之间的间距 */
+  margin-top: 12px;
+  /* 调整与下方之间的间距 */
+  margin-bottom: 12px;
+}
