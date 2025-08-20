@@ -5,14 +5,35 @@ export const nav: DefaultTheme.NavItem[] = [
       { text: '首页', link: '/' },
       { text: '导航', link: '/nav' },
       {
-        text: '指南',
+        text: '个人项目',
         items: [
-          { text: '快速上手', link: '/vitepress1' },
-          { text: '页面配置', link: '/vitepress2' },
-          { text: 'Frontmatter', link: '/vitepress3' },
-          { text: '域名托管到CF', link: '/sp2cf' }
+          { text: '我去抢个座', link: '/feature/igolib' },
+          { text: '个人主页', link: '/feature/kawaii' },
+          { text: '黑苹果 OC EFI', link: '/feature/ocefi' },
+          { text: '打瓦加密器', link: '/feature/DV' }
         ]
       },
-      { text: '关于', link: '/about' },
+      {
+        text: '网站搭建',
+        items: [
+          {
+            text: 'VitePress', // 分组标题
+            items: [
+            { text: '快速上手', link: '/webbuild/vitepress1' },
+            { text: '页面配置', link: '/webbuild/vitepress2' },
+            { text: 'Frontmatter', link: '/webbuild/vitepress3' },
+            { text: '域名托管到CF', link: '/webbuild/sp2cf' }
+            ]
+          },
+          {
+            text: 'Hexo', // 另一个分组标题
+            items: [
+              { text: '基础配置', link: 'webbuild/start-hexo' },
+              { text: '进阶玩法', link: 'webbuild/autodeploy-hexo' }
+            ]
+          }
+        ]
+      },
+      { text: '关于本站', link: '/about' },
       { text: '我', link: 'https://m.776624.xyz' }
     ]

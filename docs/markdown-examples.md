@@ -2,7 +2,7 @@
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
-## 测试
+## 代码块测试
 
 ```sh
 #默认有行号
@@ -27,6 +27,60 @@ yarn -v
 ```
 
 :::
+
+## 链接统一性调试
+
+https://default.link.com
+
+https://weizwz.com
+
+https://note.weizwz.com
+
+https://vitepress.dev
+
+https://hexo.io
+
+https://git-scm.com
+
+https://github.com
+
+https://gitee.com
+
+https://developer.mozilla.org
+
+https://vite.dev
+
+https://webpack.js
+
+https://vuejs.org
+
+https://twikoo.js.org
+
+https://element-plus.org
+
+https://nodejs.org
+
+https://npmjs.com
+
+https://react.dev
+
+https://typescriptlang.org
+
+https://uniapp.dcloud.net.cn
+
+https://siliconflow.cn
+
+https://www.deepseek.com
+
+https://code.visualstudio.com
+
+https://marketplace.visualstudio.com
+
+https://www.google.com
+
+https://chrome.google.com
+
+https://mp.weixin.qq.com
 
 ## Syntax Highlighting
 

@@ -19,27 +19,27 @@ hero:
   actions:
     - theme: brand
       text: 开始探索
-      link: /vitepress1
+      link: /webbuild/vitepress1
     - theme: alt
       text: 了解更多
-      link: "https://m.776624.xyz"
+      link: "https://m.ivyris.top"
 
 # 项目展示区域 (Features Section)
 features:
   - icon: 🤖
     title: 我去抢个座
     details: 基于 Python 实现的图书馆预约抢座系统，简化每日重复操作。
-    link: "https://github.com/VenenoSix24/igolib-ldu"
+    link: "/feature/igolib"
   - icon: 🌸
     title: 总之就是非常可爱
     details: 一个高度可定制化的个人网站/主页/博客模板，追求极致美观。
-    link: "https://github.com/VenenoSix24/kawaii-homepage"
+    link: "/feature/kawaii"
   - icon: 🍎
     title: Hackintosh OC EFI
     details: 适配微星 B350M 迫击炮主板与 AMD CPU/GPU 的黑苹果 OpenCore 配置。
-    link: "https://github.com/VenenoSix24/MSI-B350M-MORTAR-Hackintosh-OpenCore-EFI"
+    link: "/feature/ocefi"
   - icon: 🎲
     title: 打瓦加密器
     details: 一个有趣的文本加密工具，使用“打”和“瓦”作为二进制来进行加解密。
-    link: "https://github.com/VenenoSix24/DV-Encrypter"
+    link: "/feature/DV"
 ---

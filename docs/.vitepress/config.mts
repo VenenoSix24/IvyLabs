@@ -75,7 +75,7 @@ export default defineConfig({
 
     // 大纲
     outline: {
-      level: [2,2], // 显示2-2级标题
+      level: [2,3], // 显示2-2级标题
       // level: 'deep', // 显示2-6级标题
       label: '当前页大纲' // 文字显示
     },

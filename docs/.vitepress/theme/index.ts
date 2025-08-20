@@ -9,11 +9,15 @@ import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 import { h } from 'vue'
 
+// 导入链接样式
+import './style/link.css'
+
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 
 import MyLayout from './components/MyLayout.vue'
 import MNavLinks from './components/MNavLinks.vue'
+import Linkcard from "./components/Linkcard.vue"
 
 // 彩虹背景动画样式
 let homePageStyle: HTMLStyleElement | undefined
@@ -64,6 +68,7 @@ export default {
   enhanceApp({ app, router }) {
 
     // 注册全局组件
+    app.component('Linkcard' , Linkcard)
     app.component('MNavLinks' , MNavLinks)
     app.component('update', update)
     app.component('ArticleMetadata' , ArticleMetadata)

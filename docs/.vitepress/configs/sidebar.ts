@@ -14,12 +14,33 @@ export const sidebar: DefaultTheme.Sidebar = [
       },
       {
         // 分组 1
-        text: '🚀 基础配置',
+        text: '🐣 个人项目',
         items: [
-          { text: '快速上手', link: '/vitepress1' },
-          { text: '页面配置', link: '/vitepress2' },
-          { text: 'Frontmatter', link: '/vitepress3' },
-          { text: '域名托管到CF', link: '/sp2cf' }
+          { text: '我去抢个座', link: '/feature/igolib' },
+          { text: '个人主页', link: '/feature/kawaii' },
+          { text: '黑苹果 OC EFI', link: '/feature/ocefi' },
+          { text: '打瓦加密器', link: '/feature/DV' }
+        ]
+      },
+      {
+        text: '网站搭建',
+        items: [
+          {
+            text: 'VitePress', // 分组标题
+            items: [
+            { text: '快速上手', link: '/webbuild/vitepress1' },
+            { text: '页面配置', link: '/webbuild/vitepress2' },
+            { text: 'Frontmatter', link: '/webbuild/vitepress3' },
+            { text: '域名托管到CF', link: '/webbuild/sp2cf' }
+            ]
+          },
+          {
+            text: 'Hexo', // 另一个分组标题
+            items: [
+              { text: '基础配置', link: 'webbuild/start-hexo' },
+              { text: '进阶玩法', link: 'webbuild/autodeploy-hexo' }
+            ]
+          }
         ]
       },
       {
@@ -44,7 +65,8 @@ export const sidebar: DefaultTheme.Sidebar = [
         items: [
           { text: 'VitePress 中文教程', link: 'https://vitepress.yiov.top/' },
           { text: 'XaviDocs 个人技术文档', link: 'https://xaviw.github.io/XaviDocs/%E5%B7%A5%E5%85%B7%E7%B3%BB%E5%88%97/VitePress%E6%90%AD%E5%BB%BA/%E5%9F%BA%E7%A1%80%E6%90%AD%E5%BB%BA.html' },
-          { text: 'vitepress-theme-async', link: 'https://github.com/MaLuns/vitepress-theme-async' }
+          { text: 'vitepress-theme-async', link: 'https://github.com/MaLuns/vitepress-theme-async' },
+          { text: '唯知笔记', link: 'https://note.weizwz.com/' }
         ]
       }
     ]
