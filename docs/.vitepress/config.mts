@@ -69,7 +69,7 @@ export default defineConfig({
 
     //编辑本页
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path', // 改成自己的仓库
+      pattern: 'https://github.com/VenenoSix24/IvyLabs/edit/main/docs/:path', // 改成自己的仓库
       text: '在GitHub上编辑本页'
     },
 
