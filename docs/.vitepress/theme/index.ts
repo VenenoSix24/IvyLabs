@@ -10,9 +10,16 @@ import { useData, useRoute } from 'vitepress';
 import { h } from 'vue'
 
 // 导入链接样式
-import './style/link.css'
+// import './style/link.css'
 
 // Lumen
+import { BoxCube, Card, Links, Pill } from '@theojs/lumen'
+/* 首页按钮 */
+import '@theojs/lumen/button'
+/* 主题配色 */
+import '@theojs/lumen/colors'
+/* 首页样式 */
+// import '@theojs/lumen/home'
 
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
@@ -70,6 +77,10 @@ export default {
   enhanceApp({ app, router }) {
 
     // 注册全局组件
+    app.component('Pill', Pill)
+    app.component('Links', Links)
+    app.component('Card', Card)
+    app.component('BoxCube', BoxCube)
     app.component('Linkcard' , Linkcard)
     app.component('MNavLinks' , MNavLinks)
     app.component('update', update)
