@@ -14,6 +14,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@theojs/lumen": "^6.4.3",
     "vitepress-plugin-group-icons": "^1.6.3"
   }
 }

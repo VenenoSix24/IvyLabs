@@ -18,3 +18,28 @@
   /* 调整与下方之间的间距 */
   margin-bottom: 12px;
 }
+
+/* 为文章内的链接定义一个静态的、不会变化的颜色 */
+:root {
+  /* 亮色模式下的链接颜色 (您可以自定义这个颜色值) */
+  --my-static-link-color: #18794e;
+  /* 亮色模式下鼠标悬浮时的链接颜色 */
+  --my-static-link-hover-color: #299764;
+}
+
+.dark {
+  /* 暗黑模式下的链接颜色 (您可以自定义这个颜色值) */
+  --my-static-link-color: #3dd68c;
+  /* 暗黑模式下鼠标悬浮时的链接颜色 */
+  --my-static-link-hover-color: #30a46c;
+}
+
+/* 强制文章内容区域的链接使用我们定义的静态颜色 */
+#app .vp-doc .VPDoc a {
+  color: var(--my-static-link-color);
+}
+
+/* 强制文章内容区域的链接在鼠标悬浮时也使用静态颜色 */
+#app .vp-doc .VPDoc a:hover {
+  color: var(--my-static-link-hover-color);
+}

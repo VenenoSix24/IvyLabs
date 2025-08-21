@@ -7,7 +7,7 @@ pageClass: home-page
 # 个人名片区域 (Hero Section)
 hero:
   name: "Ivy Labs"
-  text: "常春藤下，指绘星河  "
+  text: "常春藤下，指绘星河"
   tagline: |
     星河璀璨，亦有暗斑
     恰似墨山留雪隙，偷藏梅影，暗递冬信

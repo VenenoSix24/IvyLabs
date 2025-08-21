@@ -74,3 +74,6 @@ dist/
 node_modules/
 cache/
 dist/
+docs/.vitepress/theme/style/var-uno.css
+docs/.vitepress/theme/style/var-old.css
+docs/.vitepress/theme/style/rainbow-old.css
