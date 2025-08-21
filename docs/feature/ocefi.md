@@ -14,11 +14,11 @@ hero:
     alt: Ivy Labs
   actions:
     - theme: brand
+      text: 下载配置
+      link: "https://github.com/VenenoSix24/MSI-B350M-MORTAR-Hackintosh-OpenCore-EFI/releases"
+    - theme: alt
       text: 快速上手
       link: /feature/ocefi#快速使用指南
-    - theme: alt
-      text: 下载(Download)
-      link: "https://github.com/VenenoSix24/MSI-B350M-MORTAR-Hackintosh-OpenCore-EFI/releases"
     - theme: alt
       text: 了解更多
       link: "https://github.com/VenenoSix24/MSI-B350M-MORTAR-Hackintosh-OpenCore-EFI"

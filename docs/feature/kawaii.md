@@ -14,6 +14,9 @@ hero:
     alt: Ivy Labs
   actions:
     - theme: brand
+      text: 在线体验
+      link: "https://6aig.cn"
+    - theme: alt
       text: 快速上手
       link: /feature/kawaii#📦-安装与使用
     - theme: alt

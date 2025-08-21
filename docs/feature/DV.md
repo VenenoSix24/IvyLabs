@@ -14,6 +14,9 @@ hero:
     alt: Ivy Labs
   actions:
     - theme: brand
+      text: 在线演示
+      link: "https://dava.ivyris.top"
+    - theme: alt
       text: 快速上手
       link: /feature/DV#演示
     - theme: alt
