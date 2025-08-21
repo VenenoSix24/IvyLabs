@@ -132,7 +132,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-// 图片缩放遮挡样式
+/* 图片缩放遮挡样式 */
 .medium-zoom-overlay {
   z-index: 30;
 }
