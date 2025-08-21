@@ -10,7 +10,7 @@ hero:
   text: "一部动漫，一个故事，一次启发"
   tagline: 一个高度可定制化的个人网站/主页/博客模板，追求极致美观
   image:
-    src: "/kawaii1.png"
+    src: "/kawaii5.png"
     alt: Ivy Labs
   actions:
     - theme: brand

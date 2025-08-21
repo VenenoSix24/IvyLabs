@@ -10,7 +10,7 @@ hero:
   text: "黑苹果的故事要结束咯"
   tagline: 适配微星 B350M 迫击炮主板与 AMD CPU/GPU 的黑苹果 OpenCore 配置
   image:
-    src: "/ocefi2.png"
+    src: "/ocefi3.png"
     alt: Ivy Labs
   actions:
     - theme: brand

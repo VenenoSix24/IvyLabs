@@ -8,9 +8,9 @@ pageClass: home-page
 hero:
   name: "我去抢个座"
   text: "我去图书馆，快让我去图书馆呐"
-  tagline: 基于 Python 实现的图书馆预约抢座系统，简化每日重复操作。
+  tagline: 基于 Python 实现的图书馆预约抢座系统，简化每日重复操作
   image:
-    src: "/book.png"
+    src: "/student.png"
     alt: Ivy Labs
   actions:
     - theme: brand

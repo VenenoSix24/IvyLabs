@@ -9,9 +9,13 @@ export const nav: DefaultTheme.NavItem[] = [
         text: '个人项目',
         items: [
           { text: '我去抢个座', link: '/feature/igolib' },
-          { text: '个人主页', link: '/feature/kawaii' },
+          { text: '总之就是非常可爱', link: '/feature/kawaii' },
           { text: '黑苹果 OC EFI', link: '/feature/ocefi' },
-          { text: '打瓦加密器', link: '/feature/DV' }
+          { text: '个人密码生成器', link: '/feature/ts' },
+          { text: '个人主页模板', link: '/feature/home' },
+          { text: '开发者在线工具', link: '/feature/tool' },
+          { text: '打瓦加密器', link: '/feature/dv' },
+          { text: '原神抽卡模拟', link: '/feature/ys' }
         ]
       },
       {

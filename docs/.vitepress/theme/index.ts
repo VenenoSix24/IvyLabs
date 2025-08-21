@@ -4,6 +4,7 @@ import './style/index.css'
 import 'virtual:group-icons.css'
 import update from "./components/update.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
+import TransitionLayout from './components/TransitionLayout.vue'
 
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
@@ -20,6 +21,8 @@ import '@theojs/lumen/button'
 import '@theojs/lumen/colors'
 /* 首页样式 */
 // import '@theojs/lumen/home'
+/* 图标样式 */
+import '@theojs/lumen/icon'
 
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';

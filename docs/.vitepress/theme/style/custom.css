@@ -43,3 +43,12 @@
 #app .vp-doc .VPDoc a:hover {
   color: var(--my-static-link-hover-color);
 }
+
+/*
+  VitePress 的文章内容都在 .vp-doc 这个类里面。
+  默认主题的分隔线是 h2 元素的上边框。
+  我们通过将这个边框设置为 none 来移除它。
+*/
+/* .vp-doc h2 {
+  border-top: none;
+} */

@@ -8,17 +8,17 @@ pageClass: home-page
 hero:
   name: "打瓦加密器"
   text: "打瓦瓦瓦打瓦打打瓦瓦瓦打打瓦瓦打"
-  tagline: 一个有趣的文本加密工具，使用“打”和“瓦”作为二进制来进行加解密 OpenCore 配置
+  tagline: 一个有趣的文本加密工具，使用“打”和“瓦”作为二进制来进行加解密，试着把上面解密出来吧
   image:
-    src: "/DV.png"
+    src: "/dv3.png"
     alt: Ivy Labs
   actions:
     - theme: brand
-      text: 在线演示
-      link: "https://dava.ivyris.top"
+      text: 在线体验
+      link: "https://dava.ivyris.top/"
     - theme: alt
-      text: 快速上手
-      link: /feature/DV#演示
+      text: 快速部署
+      link: /feature/dv#部署
     - theme: alt
       text: 了解更多
       link: "https://github.com/VenenoSix24/DV-Encrypter"
@@ -52,7 +52,7 @@ hero:
 
 本项目**完全本地运行**，并不会上传你所输入的任何信息。
 
-> [!NOTE] > **注意：这种加密方式仅用于娱乐，不适用于需要高度安全性的场景。**
+> **注意：这种加密方式仅用于娱乐，不适用于需要高度安全性的场景。**
 
 ## 截图
 
