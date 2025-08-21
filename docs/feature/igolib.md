@@ -15,7 +15,7 @@ hero:
   actions:
     - theme: brand
       text: 在线体验
-      link: "https://qz.6aig.cn"
+      link: "https://dev.6aig.cn"
     - theme: alt
       text: 快速上手
       link: /feature/igolib#📦-安装指南
