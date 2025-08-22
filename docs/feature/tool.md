@@ -8,7 +8,7 @@ pageClass: home-page
 hero:
   name: "开发者在线工具"
   text: "你能想到的，这里都有"
-  tagline: 为开发人员提供方便美观的在线开发者工具合集，具有出色的用户体验，是真滴好用
+  tagline: 为开发人员提供方便美观的在线工具集，具有出色的用户体验，是真滴真滴好用
   image:
     src: "/box1.png"
     alt: Ivy Labs

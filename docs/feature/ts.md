@@ -8,7 +8,7 @@ pageClass: home-page
 hero:
   name: "个人密码生成器"
   text: "安全到我自己都记不住"
-  tagline: 一个具备工业级安全性的纯客户端个人密码生成器，基于 PBKDF2-SHA512 算法，确保零信任架构下的密码安全
+  tagline: 一个基于 PBKDF2-SHA512 算法的纯客户端密码生成器，确保零信任架构下的密码安全
   image:
     src: "/ts3.png"
     alt: Ivy Labs

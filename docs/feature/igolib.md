@@ -7,8 +7,8 @@ pageClass: home-page
 # 个人名片区域 (Hero Section)
 hero:
   name: "我去抢个座"
-  text: "我去图书馆，快让我去图书馆呐"
-  tagline: 基于 Python 实现的图书馆预约抢座系统，简化每日重复操作
+  text: "快让我去图书馆呐"
+  tagline: 基于 Python 和 FastAPI 实现的图书馆预约抢座系统，简化每日重复操作，轻松实现图书馆座位预约
   image:
     src: "/student.png"
     alt: Ivy Labs

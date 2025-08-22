@@ -8,7 +8,7 @@ pageClass: home-page
 hero:
   name: "个人主页模板"
   text: "精心修改，不断打磨"
-  tagline: 一个精美的个人主页模板，包含链接、作品、技能等模块
+  tagline: 一个精美的个人主页模板，独立配置，简单易上手，包含链接、作品、技能等模块
   image:
     src: "/home4.png"
     alt: Ivy Labs

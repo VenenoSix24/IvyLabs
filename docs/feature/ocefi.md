@@ -8,7 +8,7 @@ pageClass: home-page
 hero:
   name: "Hackintosh OC EFI"
   text: "黑苹果的故事要结束咯"
-  tagline: 适配微星 B350M 迫击炮主板与 AMD CPU/GPU 的黑苹果 OpenCore 配置
+  tagline: 适配 微星 B350M 迫击炮 主板 与 AMD CPU/GPU 的黑苹果 OpenCore 配置，生成三码即可使用
   image:
     src: "/ocefi3.png"
     alt: Ivy Labs

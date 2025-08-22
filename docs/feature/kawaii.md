@@ -7,8 +7,8 @@ pageClass: home-page
 # 个人名片区域 (Hero Section)
 hero:
   name: "总之就是非常可爱"
-  text: "一部动漫，一个故事，一次启发"
-  tagline: 一个高度可定制化的个人网站/主页/博客模板，追求极致美观
+  text: "一部动漫，一次启发"
+  tagline: 可定制化的个人网站/主页/博客模板，追求极致美观
   image:
     src: "/kawaii5.png"
     alt: Ivy Labs
