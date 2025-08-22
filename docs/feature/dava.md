@@ -18,7 +18,7 @@ hero:
       link: "https://dava.ivyris.top/"
     - theme: alt
       text: 快速部署
-      link: /feature/dv#部署
+      link: /feature/dava#部署
     - theme: alt
       text: 了解更多
       link: "https://github.com/VenenoSix24/DV-Encrypter"
@@ -46,7 +46,7 @@ hero:
 
 ## 演示
 
-项目演示站点：👉 [Demo](https://dava.776624.xyz/) | [打瓦加密器](https://dava.776624.xyz/)
+项目演示站点：👉 [Demo](https://dava.ivyris.top/) | [打瓦加密器](https://dava.ivyris.top/)
 
 ## 声明
 

@@ -99,7 +99,8 @@ export default defineConfig({
     socialLinks: [
     // VitePress 内置了 github, twitter, discord, facebook, youtube 等图标
       { icon: 'github', link: 'https://github.com/VenenoSix24' },
-      { icon: 'x', link: 'https://x.com/' }
+      { icon: 'telegram', link: 'https://t.me/s1xig' },
+      { icon: 'x', link: 'https://x.com/S1xlg' }
     ],
 
     // 页脚

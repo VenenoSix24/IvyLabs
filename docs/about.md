@@ -2,6 +2,8 @@
 comment: false
 prev: false
 next: false
+sidebar: false
+aside: false
 ---
 
 <p align="center">
@@ -37,8 +39,6 @@ next: false
 - **包管理器:** [pnpm](https://pnpm.io/)
 - **部署平台:** [Vercel](http://vercel.com/) / [GitHub Pages](https://pages.github.com/)
 
-## 📄 开源许可 (License)
+## 📄 版权声明
 
-本站源码采用 [MIT License](https://github.com/VenenoSix24/IvyLabs/blob/main/LICENSE) 许可。
-
-站内所有原创内容（文章、笔记等）的版权归作者所有，转载请注明出处。
+站内所有非转载原创内容（项目、文章、笔记等）的版权归作者所有，转载请注明出处。

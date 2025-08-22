@@ -46,7 +46,7 @@ hero:
 
 一个美观、响应式的个人网站/主页/博客，基于 Vue3、Tailwind CSS 和 Vite 构建，融入动漫《总之就是非常可爱》元素。
 
-[🚀 Demo](https://kawaii.776624.xyz) | [📖 文档](https://github.com/VenenoSix24/kawaii-homepage/blob/main/README.md) | [🐛 问题反馈](https://github.com/VenenoSix24/kawaii-homepage/issues)
+[🚀 Demo](https://kawaii.ivyris.top) | [📖 文档](https://github.com/VenenoSix24/kawaii-homepage/blob/main/README.md) | [🐛 问题反馈](https://github.com/VenenoSix24/kawaii-homepage/issues)
 
 ![网站预览](https://s2.loli.net/2025/05/17/usnaUKvDZ8k93FX.jpg)
 

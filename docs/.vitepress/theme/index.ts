@@ -4,7 +4,6 @@ import './style/index.css'
 import 'virtual:group-icons.css'
 import update from "./components/update.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
-import TransitionLayout from './components/TransitionLayout.vue'
 
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
@@ -23,6 +22,7 @@ import '@theojs/lumen/colors'
 // import '@theojs/lumen/home'
 /* 图标样式 */
 import '@theojs/lumen/icon'
+import { Underline } from '@theojs/lumen'
 
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
@@ -80,6 +80,7 @@ export default {
   enhanceApp({ app, router }) {
 
     // 注册全局组件
+    app.component('Home', Underline)
     app.component('Pill', Pill)
     app.component('Links', Links)
     app.component('Card', Card)
@@ -94,7 +95,7 @@ export default {
 
     watch(
       () => router.route.data.relativePath,
-      () => updateHomePageStyle(location.pathname === '/'),
+      () => updateHomePageStyle(router.route.data.frontmatter.layout === 'home'),
       { immediate: true },
     )
   },

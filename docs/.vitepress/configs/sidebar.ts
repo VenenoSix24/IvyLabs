@@ -22,7 +22,7 @@ export const sidebar: DefaultTheme.Sidebar = [
           { text: '个人密码生成器', link: '/feature/ts' },
           { text: '个人主页模板', link: '/feature/home' },
           { text: '开发者在线工具', link: '/feature/tool' },
-          { text: '打瓦加密器', link: '/feature/dv' },
+          { text: '打瓦加密器', link: '/feature/dava' },
           { text: '原神抽卡模拟', link: '/feature/ys' }
         ]
       },
