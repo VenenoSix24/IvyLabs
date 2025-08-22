@@ -105,8 +105,8 @@ export default defineConfig({
 
     // 页脚
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: `Copyright © 2020-${new Date().getFullYear()} present Ivy Labs`,
+      message: 'VenenoSix24 🩷 Ivyris Amaris',
+      copyright: `Copyright © 2020-${new Date().getFullYear()} Present Ivy Labs`,
     },
   }
 })

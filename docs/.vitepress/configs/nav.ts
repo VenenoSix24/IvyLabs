@@ -4,7 +4,7 @@ import type { DefaultTheme } from 'vitepress'
 export const nav: DefaultTheme.NavItem[] = [
       { text: '首页', link: '/' },
       { text: '导航', link: '/nav' },
-      { text: '链接汇总', link: '/mylink' },
+      // { text: '链接汇总', link: '/mylink' },
       {
         text: '个人项目',
         items: [
