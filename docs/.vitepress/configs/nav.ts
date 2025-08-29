@@ -39,6 +39,7 @@ export const nav: DefaultTheme.NavItem[] = [
           }
         ]
       },
+      { text: '地球OL', link: '/feature/ol' },
       { text: '关于', link: '/about' },
       { text: '我', link: 'https://m.ivyris.top/' }
     ]

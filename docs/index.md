@@ -24,6 +24,9 @@ hero:
     - theme: alt
       text: 了解更多
       link: "https://m.ivyris.top"
+    - theme: alt
+      text: 地球OL
+      link: /feature/ol
 
 # 项目展示区域 (Features Section)
 features:
