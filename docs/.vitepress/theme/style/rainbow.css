@@ -12,6 +12,7 @@
     --rainbow-color-darker: #005d47;
     --rainbow-color-next: #009ff7;
   }
+
   1.25% {
     --rainbow-color-1: #00a996;
     --rainbow-color-light: #4bd1bd;
@@ -20,6 +21,7 @@
     --rainbow-color-darker: #005e4f;
     --rainbow-color-next: #009dfa;
   }
+
   2.5% {
     --rainbow-color-1: #00a99f;
     --rainbow-color-light: #4cd1c6;
@@ -28,6 +30,7 @@
     --rainbow-color-darker: #005e56;
     --rainbow-color-next: #009bfc;
   }
+
   3.75% {
     --rainbow-color-1: #00a9a7;
     --rainbow-color-light: #4dd1cf;
@@ -36,6 +39,7 @@
     --rainbow-color-darker: #005e5e;
     --rainbow-color-next: #0098fd;
   }
+
   5% {
     --rainbow-color-1: #00a9b0;
     --rainbow-color-light: #4ed1d7;
@@ -44,6 +48,7 @@
     --rainbow-color-darker: #005e65;
     --rainbow-color-next: #0096fd;
   }
+
   6.25% {
     --rainbow-color-1: #00a9b8;
     --rainbow-color-light: #4fd1e0;
@@ -52,6 +57,7 @@
     --rainbow-color-darker: #005e6d;
     --rainbow-color-next: #0093fd;
   }
+
   7.5% {
     --rainbow-color-1: #00a9c0;
     --rainbow-color-light: #50d0e8;
@@ -60,6 +66,7 @@
     --rainbow-color-darker: #005e74;
     --rainbow-color-next: #2e90fc;
   }
+
   8.75% {
     --rainbow-color-1: #00a8c7;
     --rainbow-color-light: #51d0f0;
@@ -68,6 +75,7 @@
     --rainbow-color-darker: #005e7b;
     --rainbow-color-next: #4d8dfa;
   }
+
   10% {
     --rainbow-color-1: #00a8cf;
     --rainbow-color-light: #52cff7;
@@ -76,6 +84,7 @@
     --rainbow-color-darker: #005e81;
     --rainbow-color-next: #638af8;
   }
+
   11.25% {
     --rainbow-color-1: #00a7d5;
     --rainbow-color-light: #53cfff;
@@ -84,6 +93,7 @@
     --rainbow-color-darker: #005d87;
     --rainbow-color-next: #7587f5;
   }
+
   12.5% {
     --rainbow-color-1: #00a6dc;
     --rainbow-color-light: #55ceff;
@@ -92,6 +102,7 @@
     --rainbow-color-darker: #005d8d;
     --rainbow-color-next: #8583f1;
   }
+
   13.75% {
     --rainbow-color-1: #00a6e2;
     --rainbow-color-light: #56cdff;
@@ -100,6 +111,7 @@
     --rainbow-color-darker: #005c93;
     --rainbow-color-next: #9280ed;
   }
+
   15% {
     --rainbow-color-1: #00a4e7;
     --rainbow-color-light: #57ccff;
@@ -108,6 +120,7 @@
     --rainbow-color-darker: #005b98;
     --rainbow-color-next: #9f7ce9;
   }
+
   16.25% {
     --rainbow-color-1: #00a3ec;
     --rainbow-color-light: #58caff;
@@ -116,6 +129,7 @@
     --rainbow-color-darker: #005b9c;
     --rainbow-color-next: #aa78e3;
   }
+
   17.5% {
     --rainbow-color-1: #00a2f1;
     --rainbow-color-light: #58c9ff;
@@ -124,6 +138,7 @@
     --rainbow-color-darker: #0059a0;
     --rainbow-color-next: #b574dd;
   }
+
   18.75% {
     --rainbow-color-1: #00a0f4;
     --rainbow-color-light: #59c7ff;
@@ -132,6 +147,7 @@
     --rainbow-color-darker: #0058a3;
     --rainbow-color-next: #be71d7;
   }
+
   20% {
     --rainbow-color-1: #009ff7;
     --rainbow-color-light: #5ac5ff;
@@ -140,6 +156,7 @@
     --rainbow-color-darker: #0057a6;
     --rainbow-color-next: #c76dd1;
   }
+
   21.25% {
     --rainbow-color-1: #009dfa;
     --rainbow-color-light: #5ac3ff;
@@ -148,6 +165,7 @@
     --rainbow-color-darker: #0055a8;
     --rainbow-color-next: #cf69c9;
   }
+
   22.5% {
     --rainbow-color-1: #009bfc;
     --rainbow-color-light: #5bc1ff;
@@ -156,6 +174,7 @@
     --rainbow-color-darker: #0053aa;
     --rainbow-color-next: #d566c2;
   }
+
   23.75% {
     --rainbow-color-1: #0098fd;
     --rainbow-color-light: #5bbfff;
@@ -164,6 +183,7 @@
     --rainbow-color-darker: #0051ab;
     --rainbow-color-next: #dc63ba;
   }
+
   25% {
     --rainbow-color-1: #0096fd;
     --rainbow-color-light: #5bbcff;
@@ -172,6 +192,7 @@
     --rainbow-color-darker: #004fab;
     --rainbow-color-next: #e160b3;
   }
+
   26.25% {
     --rainbow-color-1: #0093fd;
     --rainbow-color-light: #5bb9ff;
@@ -180,6 +201,7 @@
     --rainbow-color-darker: #004dab;
     --rainbow-color-next: #e65eab;
   }
+
   27.5% {
     --rainbow-color-1: #2e90fc;
     --rainbow-color-light: #69b6ff;
@@ -188,6 +210,7 @@
     --rainbow-color-darker: #004baa;
     --rainbow-color-next: #e95ca2;
   }
+
   28.75% {
     --rainbow-color-1: #4d8dfa;
     --rainbow-color-light: #7eb3ff;
@@ -196,6 +219,7 @@
     --rainbow-color-darker: #0048a9;
     --rainbow-color-next: #ed5a9a;
   }
+
   30% {
     --rainbow-color-1: #638af8;
     --rainbow-color-light: #8fb0ff;
@@ -204,6 +228,7 @@
     --rainbow-color-darker: #0045a7;
     --rainbow-color-next: #ef5992;
   }
+
   31.25% {
     --rainbow-color-1: #7587f5;
     --rainbow-color-light: #9fadff;
@@ -212,6 +237,7 @@
     --rainbow-color-darker: #0941a4;
     --rainbow-color-next: #f15989;
   }
+
   32.5% {
     --rainbow-color-1: #8583f1;
     --rainbow-color-light: #aea9ff;
@@ -220,6 +246,7 @@
     --rainbow-color-darker: #2e3ea1;
     --rainbow-color-next: #f25981;
   }
+
   33.75% {
     --rainbow-color-1: #9280ed;
     --rainbow-color-light: #bca6ff;
@@ -228,6 +255,7 @@
     --rainbow-color-darker: #413a9d;
     --rainbow-color-next: #f25a79;
   }
+
   35% {
     --rainbow-color-1: #9f7ce9;
     --rainbow-color-light: #c8a2ff;
@@ -236,6 +264,7 @@
     --rainbow-color-darker: #503598;
     --rainbow-color-next: #f25c71;
   }
+
   36.25% {
     --rainbow-color-1: #aa78e3;
     --rainbow-color-light: #d39eff;
@@ -244,6 +273,7 @@
     --rainbow-color-darker: #5c3193;
     --rainbow-color-next: #f15e69;
   }
+
   37.5% {
     --rainbow-color-1: #b574dd;
     --rainbow-color-light: #de9bff;
@@ -252,6 +282,7 @@
     --rainbow-color-darker: #662c8e;
     --rainbow-color-next: #ef6061;
   }
+
   38.75% {
     --rainbow-color-1: #be71d7;
     --rainbow-color-light: #e897ff;
@@ -260,6 +291,7 @@
     --rainbow-color-darker: #6f2688;
     --rainbow-color-next: #ed635a;
   }
+
   40% {
     --rainbow-color-1: #c76dd1;
     --rainbow-color-light: #f194fa;
@@ -268,6 +300,7 @@
     --rainbow-color-darker: #772082;
     --rainbow-color-next: #eb6552;
   }
+
   41.25% {
     --rainbow-color-1: #cf69c9;
     --rainbow-color-light: #f991f2;
@@ -276,6 +309,7 @@
     --rainbow-color-darker: #7e197c;
     --rainbow-color-next: #e8694b;
   }
+
   42.5% {
     --rainbow-color-1: #d566c2;
     --rainbow-color-light: #ff8deb;
@@ -284,6 +318,7 @@
     --rainbow-color-darker: #841075;
     --rainbow-color-next: #e46c44;
   }
+
   43.75% {
     --rainbow-color-1: #dc63ba;
     --rainbow-color-light: #ff8be3;
@@ -292,6 +327,7 @@
     --rainbow-color-darker: #89046f;
     --rainbow-color-next: #e06f3d;
   }
+
   45% {
     --rainbow-color-1: #e160b3;
     --rainbow-color-light: #ff88db;
@@ -300,6 +336,7 @@
     --rainbow-color-darker: #8d0068;
     --rainbow-color-next: #db7336;
   }
+
   46.25% {
     --rainbow-color-1: #e65eab;
     --rainbow-color-light: #ff86d2;
@@ -308,6 +345,7 @@
     --rainbow-color-darker: #910060;
     --rainbow-color-next: #d77630;
   }
+
   47.5% {
     --rainbow-color-1: #e95ca2;
     --rainbow-color-light: #ff84ca;
@@ -316,6 +354,7 @@
     --rainbow-color-darker: #940059;
     --rainbow-color-next: #d17a2a;
   }
+
   48.75% {
     --rainbow-color-1: #ed5a9a;
     --rainbow-color-light: #ff83c1;
@@ -324,6 +363,7 @@
     --rainbow-color-darker: #970052;
     --rainbow-color-next: #cc7d24;
   }
+
   50% {
     --rainbow-color-1: #ef5992;
     --rainbow-color-light: #ff82b8;
@@ -332,6 +372,7 @@
     --rainbow-color-darker: #98004b;
     --rainbow-color-next: #c6811e;
   }
+
   51.25% {
     --rainbow-color-1: #f15989;
     --rainbow-color-light: #ff82af;
@@ -340,6 +381,7 @@
     --rainbow-color-darker: #9a0043;
     --rainbow-color-next: #bf8418;
   }
+
   52.5% {
     --rainbow-color-1: #f25981;
     --rainbow-color-light: #ff82a7;
@@ -348,6 +390,7 @@
     --rainbow-color-darker: #9a003c;
     --rainbow-color-next: #b98713;
   }
+
   53.75% {
     --rainbow-color-1: #f25a79;
     --rainbow-color-light: #ff839e;
@@ -356,6 +399,7 @@
     --rainbow-color-darker: #9a0035;
     --rainbow-color-next: #b28a0f;
   }
+
   55% {
     --rainbow-color-1: #f25c71;
     --rainbow-color-light: #ff8496;
@@ -364,6 +408,7 @@
     --rainbow-color-darker: #99002e;
     --rainbow-color-next: #ab8d0c;
   }
+
   56.25% {
     --rainbow-color-1: #f15e69;
     --rainbow-color-light: #ff868d;
@@ -372,6 +417,7 @@
     --rainbow-color-darker: #980027;
     --rainbow-color-next: #a3900b;
   }
+
   57.5% {
     --rainbow-color-1: #ef6061;
     --rainbow-color-light: #ff8885;
@@ -380,6 +426,7 @@
     --rainbow-color-darker: #970020;
     --rainbow-color-next: #9c920d;
   }
+
   58.75% {
     --rainbow-color-1: #ed635a;
     --rainbow-color-light: #ff8a7d;
@@ -388,6 +435,7 @@
     --rainbow-color-darker: #940619;
     --rainbow-color-next: #949510;
   }
+
   60% {
     --rainbow-color-1: #eb6552;
     --rainbow-color-light: #ff8d76;
@@ -396,6 +444,7 @@
     --rainbow-color-darker: #921111;
     --rainbow-color-next: #8b9715;
   }
+
   61.25% {
     --rainbow-color-1: #e8694b;
     --rainbow-color-light: #ff8f6e;
@@ -404,6 +453,7 @@
     --rainbow-color-darker: #8f1908;
     --rainbow-color-next: #83991b;
   }
+
   62.5% {
     --rainbow-color-1: #e46c44;
     --rainbow-color-light: #ff9367;
@@ -412,6 +462,7 @@
     --rainbow-color-darker: #8c1f00;
     --rainbow-color-next: #7a9b21;
   }
+
   63.75% {
     --rainbow-color-1: #e06f3d;
     --rainbow-color-light: #ff9661;
@@ -420,6 +471,7 @@
     --rainbow-color-darker: #882500;
     --rainbow-color-next: #719d27;
   }
+
   65% {
     --rainbow-color-1: #db7336;
     --rainbow-color-light: #ff995a;
@@ -428,6 +480,7 @@
     --rainbow-color-darker: #842a00;
     --rainbow-color-next: #679e2e;
   }
+
   66.25% {
     --rainbow-color-1: #d77630;
     --rainbow-color-light: #ff9c54;
@@ -436,6 +489,7 @@
     --rainbow-color-darker: #802f00;
     --rainbow-color-next: #5da035;
   }
+
   67.5% {
     --rainbow-color-1: #d17a2a;
     --rainbow-color-light: #fea04f;
@@ -444,6 +498,7 @@
     --rainbow-color-darker: #7b3300;
     --rainbow-color-next: #51a13c;
   }
+
   68.75% {
     --rainbow-color-1: #cc7d24;
     --rainbow-color-light: #f8a34a;
@@ -452,6 +507,7 @@
     --rainbow-color-darker: #773700;
     --rainbow-color-next: #44a244;
   }
+
   70% {
     --rainbow-color-1: #c6811e;
     --rainbow-color-light: #f2a646;
@@ -460,6 +516,7 @@
     --rainbow-color-darker: #713b00;
     --rainbow-color-next: #34a44b;
   }
+
   71.25% {
     --rainbow-color-1: #bf8418;
     --rainbow-color-light: #ebaa42;
@@ -468,6 +525,7 @@
     --rainbow-color-darker: #6c3e00;
     --rainbow-color-next: #1ba553;
   }
+
   72.5% {
     --rainbow-color-1: #b98713;
     --rainbow-color-light: #e4ad3f;
@@ -476,6 +534,7 @@
     --rainbow-color-darker: #674100;
     --rainbow-color-next: #00a65b;
   }
+
   73.75% {
     --rainbow-color-1: #b28a0f;
     --rainbow-color-light: #ddb03d;
@@ -484,6 +543,7 @@
     --rainbow-color-darker: #614400;
     --rainbow-color-next: #00a663;
   }
+
   75% {
     --rainbow-color-1: #ab8d0c;
     --rainbow-color-light: #d5b33c;
@@ -492,6 +552,7 @@
     --rainbow-color-darker: #5b4700;
     --rainbow-color-next: #00a76c;
   }
+
   76.25% {
     --rainbow-color-1: #a3900b;
     --rainbow-color-light: #cdb63c;
@@ -500,6 +561,7 @@
     --rainbow-color-darker: #554900;
     --rainbow-color-next: #00a874;
   }
+
   77.5% {
     --rainbow-color-1: #9c920d;
     --rainbow-color-light: #c5b83d;
@@ -508,6 +570,7 @@
     --rainbow-color-darker: #4e4b00;
     --rainbow-color-next: #00a87d;
   }
+
   78.75% {
     --rainbow-color-1: #949510;
     --rainbow-color-light: #bdbb3e;
@@ -516,6 +579,7 @@
     --rainbow-color-darker: #474d00;
     --rainbow-color-next: #00a985;
   }
+
   80% {
     --rainbow-color-1: #8b9715;
     --rainbow-color-light: #b4bd41;
@@ -524,6 +588,7 @@
     --rainbow-color-darker: #404f00;
     --rainbow-color-next: #00a98e;
   }
+
   81.25% {
     --rainbow-color-1: #83991b;
     --rainbow-color-light: #abc045;
@@ -532,6 +597,7 @@
     --rainbow-color-darker: #385100;
     --rainbow-color-next: #00a996;
   }
+
   82.5% {
     --rainbow-color-1: #7a9b21;
     --rainbow-color-light: #a2c249;
@@ -540,6 +606,7 @@
     --rainbow-color-darker: #2f5200;
     --rainbow-color-next: #00a99f;
   }
+
   83.75% {
     --rainbow-color-1: #719d27;
     --rainbow-color-light: #98c44e;
@@ -548,6 +615,7 @@
     --rainbow-color-darker: #255300;
     --rainbow-color-next: #00a9a7;
   }
+
   85% {
     --rainbow-color-1: #679e2e;
     --rainbow-color-light: #8ec654;
@@ -556,6 +624,7 @@
     --rainbow-color-darker: #185500;
     --rainbow-color-next: #00a9b0;
   }
+
   86.25% {
     --rainbow-color-1: #5da035;
     --rainbow-color-light: #84c75a;
@@ -564,6 +633,7 @@
     --rainbow-color-darker: #015600;
     --rainbow-color-next: #00a9b8;
   }
+
   87.5% {
     --rainbow-color-1: #51a13c;
     --rainbow-color-light: #79c961;
@@ -572,6 +642,7 @@
     --rainbow-color-darker: #005700;
     --rainbow-color-next: #00a9c0;
   }
+
   88.75% {
     --rainbow-color-1: #44a244;
     --rainbow-color-light: #6dca68;
@@ -580,6 +651,7 @@
     --rainbow-color-darker: #005700;
     --rainbow-color-next: #00a8c7;
   }
+
   90% {
     --rainbow-color-1: #34a44b;
     --rainbow-color-light: #60cc70;
@@ -588,6 +660,7 @@
     --rainbow-color-darker: #005801;
     --rainbow-color-next: #00a8cf;
   }
+
   91.25% {
     --rainbow-color-1: #1ba553;
     --rainbow-color-light: #51cd77;
@@ -596,6 +669,7 @@
     --rainbow-color-darker: #00590d;
     --rainbow-color-next: #00a7d5;
   }
+
   92.5% {
     --rainbow-color-1: #00a65b;
     --rainbow-color-light: #48ce80;
@@ -604,6 +678,7 @@
     --rainbow-color-darker: #005917;
     --rainbow-color-next: #00a6dc;
   }
+
   93.75% {
     --rainbow-color-1: #00a663;
     --rainbow-color-light: #48cf88;
@@ -612,6 +687,7 @@
     --rainbow-color-darker: #005a20;
     --rainbow-color-next: #00a6e2;
   }
+
   95% {
     --rainbow-color-1: #00a76c;
     --rainbow-color-light: #49cf91;
@@ -620,6 +696,7 @@
     --rainbow-color-darker: #005b28;
     --rainbow-color-next: #00a4e7;
   }
+
   96.25% {
     --rainbow-color-1: #00a874;
     --rainbow-color-light: #49d099;
@@ -628,6 +705,7 @@
     --rainbow-color-darker: #005c30;
     --rainbow-color-next: #00a3ec;
   }
+
   97.5% {
     --rainbow-color-1: #00a87d;
     --rainbow-color-light: #49d0a2;
@@ -636,6 +714,7 @@
     --rainbow-color-darker: #005c37;
     --rainbow-color-next: #00a2f1;
   }
+
   98.75% {
     --rainbow-color-1: #00a985;
     --rainbow-color-light: #4ad1ab;
@@ -644,6 +723,7 @@
     --rainbow-color-darker: #005d3f;
     --rainbow-color-next: #00a0f4;
   }
+
   100% {
     --rainbow-color-1: #00a98e;
     --rainbow-color-light: #4ad1b4;
@@ -655,16 +735,22 @@
 }
 
 :root {
-  --rainbow-color-1: #00a98e;
+  /* --rainbow-color-1: #00a98e;
   --rainbow-color-light: #4ad1b4;
   --rainbow-color-lighter: #78fadc;
   --rainbow-color-dark: #008269;
   --rainbow-color-darker: #005d47;
-  --rainbow-color-next: #009ff7;
+  --rainbow-color-next: #009ff7; */
+  --rainbow-color-1: #ed5a9a;
+  --rainbow-color-light: #ff83c1;
+  --rainbow-color-lighter: #fface9;
+  --rainbow-color-dark: #c12f75;
+  --rainbow-color-darker: #970052;
+  --rainbow-color-next: #cc7d24;
 
   --rainbow-color-2: var(--rainbow-color-darker);
 
-  animation: rainbow 246s linear infinite;
+  /* animation: rainbow 246s linear infinite; */
 }
 
 :root.dark {
