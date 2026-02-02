@@ -37,6 +37,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     {
       duration: 300,
       easing: 'ease-in',
+      fill: 'forwards',
       pseudoElement: `::view-transition-${isDark.value ? 'old' : 'new'}(root)`
     }
   )
@@ -81,9 +82,9 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   width: 22px !important;
 } */
 
-/* .VPSwitchAppearance .check {
+.VPSwitchAppearance .check {
   transform: none !important;
-} */
+}
 
 /* 修正因视图过渡导致的按钮图标偏移 */
 .VPSwitchAppearance .check .icon {
