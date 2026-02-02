@@ -77,7 +77,7 @@ export default {
     );
   },
 
-  enhanceApp({ app, router }) {
+  enhanceApp({ app, router }: { app: any; router: any }) {
 
     // 注册全局组件
     app.component('Home', Underline)

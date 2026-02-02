@@ -100,7 +100,7 @@ export default defineConfig({
     // VitePress 内置了 github, twitter, discord, facebook, youtube 等图标
       { icon: 'github', link: 'https://github.com/VenenoSix24' },
       { icon: 'telegram', link: 'https://t.me/s1xig' },
-      { icon: 'x', link: 'https://x.com/S1xlg' }
+      { icon: 'x', link: 'https://x.com/S1xIg' }
     ],
 
     // 页脚
