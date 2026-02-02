@@ -8,15 +8,47 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-brand-1: #18794e;
-  --vp-c-brand-2: #299764;
-  --vp-c-brand-3: #30a46c;
+  /* 方案 1: 极客靛蓝 (Electric Indigo - 推荐) */
+  /* --vp-c-brand-1: #5468ff;
+  --vp-c-brand-2: #7485ff;
+  --vp-c-brand-3: #3d4fc4; */
+
+  /* 方案 2: 午夜浆果 (Deep Berry - 沉稳玫瑰色) */
+  /* --vp-c-brand-1: #a11d5a;
+  --vp-c-brand-2: #c12f75;
+  --vp-c-brand-3: #801246; */
+
+  /* 方案 3: 琥珀金 (Amber - 温暖落日色) */
+  /* --vp-c-brand-1: #cc7d24;
+  --vp-c-brand-2: #e68a1e;
+  --vp-c-brand-3: #a3631d; */
+
+  /* 方案 4: 瑰丽粉红 (Magnificent Rose - 提取自背景的玫瑰粉) */
+  --vp-c-brand-1: #ed5a9a;
+  --vp-c-brand-2: #f07ab0;
+  --vp-c-brand-3: #c12f75;
 }
 
 .dark {
-  --vp-c-brand-1: #3dd68c;
-  --vp-c-brand-2: #30a46c;
-  --vp-c-brand-3: #298459;
+  /* 方案 1: 极客靛蓝 (Electric Indigo) */
+  /* --vp-c-brand-1: #a1b2ff;
+  --vp-c-brand-2: #c0ccff;
+  --vp-c-brand-3: #7485ff; */
+
+  /* 方案 2: 午夜浆果 (Deep Berry) */
+  /* --vp-c-brand-1: #e45b9a;
+  --vp-c-brand-2: #f07ab0;
+  --vp-c-brand-3: #a11d5a; */
+
+  /* 方案 3: 琥珀金 (Amber) */
+  /* --vp-c-brand-1: #ffb54d;
+  --vp-c-brand-2: #ffcc80;
+  --vp-c-brand-3: #cc7d24; */
+
+  /* 方案 4: 瑰丽粉红 (Magnificent Rose) */
+  --vp-c-brand-1: #ff83c1;
+  --vp-c-brand-2: #fface9;
+  --vp-c-brand-3: #ed5a9a;
 }
 
 /* :root {
@@ -62,16 +94,12 @@
  * -------------------------------------------------------------------------- */
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    var(--rainbow-color-1) 30%,
-    var(--rainbow-color-next)
-  );
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    var(--rainbow-color-1) 30%,
-    var(--rainbow-color-next)
-  );
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      var(--rainbow-color-1) 30%,
+      var(--rainbow-color-next));
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      var(--rainbow-color-1) 30%,
+      var(--rainbow-color-next));
   --vp-home-hero-image-filter: blur(80px);
 }
 
@@ -138,5 +166,23 @@
 }
 
 .medium-zoom-image {
-  z-index: 9999 !important; /* 给的值是21，但是实测盖不住，直接999 */
+  z-index: 9999 !important;
+  /* 给的值是21，但是实测盖不住，直接999 */
+}
+
+/**
+ * Component: Lumen
+ * -------------------------------------------------------------------------- */
+:root {
+  /* 使用主题品牌色覆盖 Lumen 核心变量 */
+  --lm-Notice-bg: var(--vp-c-brand-soft);
+  --lm-Notice-bg-hover: var(--vp-c-brand-1);
+  --lm-Notice-text: var(--vp-c-brand-1);
+  --lm-link-text: var(--vp-c-brand-1);
+  --lm-link-text-hover: var(--vp-c-brand-2);
+}
+
+.dark :root {
+  --lm-Notice-bg: var(--vp-c-brand-soft);
+  --lm-Notice-text: var(--vp-c-text-1);
 }

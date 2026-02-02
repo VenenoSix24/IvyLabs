@@ -1,6 +1,5 @@
 /* .vitepress/theme/index.ts */
 import DefaultTheme from 'vitepress/theme'
-import './style/index.css'
 import 'virtual:group-icons.css'
 import update from "./components/update.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
@@ -23,6 +22,7 @@ import '@theojs/lumen/colors'
 /* 图标样式 */
 import '@theojs/lumen/icon'
 import { Underline } from '@theojs/lumen'
+import './style/index.css'
 
 import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
@@ -54,7 +54,7 @@ export default {
       mapping: 'pathname',
       inputPosition: 'bottom',
       lang: 'zh-CN',
-      },
+    },
       {
         frontmatter, route
       },
@@ -117,7 +117,7 @@ function updateHomePageStyle(value: boolean) {
     homePageStyle = document.createElement('style')
     homePageStyle.innerHTML = `
     :root {
-      animation: rainbow 12s linear infinite;
+      /* animation: rainbow 12s linear infinite; */
     }`
     document.body.appendChild(homePageStyle)
   } else {

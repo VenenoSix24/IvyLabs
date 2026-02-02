@@ -15,6 +15,7 @@ hero:
   # tagline: 星河璀璨，亦有暗斑，代码是写给未来的情书，而这里是我的回音壁。
   # tagline: 星河璀璨，亦有暗斑，那些熄灭的星辰，都化作了今日仰望夜空的基石。
   image:
+    # src: /opening-hours.png
     src: /logo-ivy1-2.png
     alt: Ivy Labs
   actions:
@@ -34,7 +35,7 @@ features:
       light: /student.png
       dark: /student.png
     title: 我去抢个座
-    details: 基于 Python 实现的图书馆预约抢座系统，简化每日重复操作
+    details: 基于 React + TypeScript + Tauri 的跨平台图书馆座位预约应用
     link: "/feature/igolib"
   - icon:
       light: /kawaii5.png
