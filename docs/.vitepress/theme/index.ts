@@ -99,15 +99,35 @@ export default {
       'startViewTransition' in document &&
       window.matchMedia('(prefers-reduced-motion: no-preference)').matches
 
+    // 用于协调 View Transition 和路由切换的 Promise
+    let resolveTransition: (() => void) | null = null
+
     router.onBeforeRouteChange = () => {
       if (!enableTransitions()) return
-      // 返回 Promise 让 VitePress 等待 transition 完成
+
+      // 返回 Promise 让 VitePress 等待
       return new Promise<void>(resolve => {
-        (document as any).startViewTransition(async () => {
+        // 启动 View Transition，捕获当前页面快照
+        const transition = (document as any).startViewTransition(async () => {
+          // 让 VitePress 继续路由切换
           resolve()
-          await nextTick()
+          // 等待路由切换完成（DOM 更新）
+          await new Promise<void>(r => {
+            resolveTransition = r
+          })
         })
+
+        // 处理 transition 错误
+        transition.finished.catch(() => { })
       })
+    }
+
+    router.onAfterRouteChange = () => {
+      // 通知 View Transition 回调：DOM 已更新
+      if (resolveTransition) {
+        resolveTransition()
+        resolveTransition = null
+      }
     }
 
     watch(
