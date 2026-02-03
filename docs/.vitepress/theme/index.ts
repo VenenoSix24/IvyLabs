@@ -129,7 +129,6 @@ export default {
         resolveTransition = null
       }
     }
-
     watch(
       () => router.route.data.relativePath,
       () => updateHomePageStyle(router.route.data.frontmatter.layout === 'home'),
