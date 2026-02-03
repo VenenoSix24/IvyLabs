@@ -15,7 +15,7 @@ hero:
   actions:
     - theme: brand
       text: 在线体验
-      link: "https://6aig.cn"
+      link: "https://kawaii.ivyris.top"
     - theme: alt
       text: 快速上手
       link: /feature/kawaii#📦-安装与使用
@@ -41,8 +41,6 @@ hero:
 #     details: 一个有趣的文本加密工具，使用“打”和“瓦”作为二进制来进行加解密。
 #     link: "https://github.com/VenenoSix24/DV-Encrypter"
 ---
-
-# 总之就是非常可爱——个人网站/主页/博客
 
 > [!IMPORTANT]
 >
