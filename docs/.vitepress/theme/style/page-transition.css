@@ -1,0 +1,51 @@
+/* 页面切换动画样式
+ * NOTE: 使用 View Transitions API 实现流畅的页面切换效果
+ * 与颜色模式切换动画分离，避免冲突
+ */
+
+/* 页面淡入动画 - 从下方淡入并放大 */
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* 页面淡出动画 - 向上淡出并缩小 */
+@keyframes page-fade-out {
+  from {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.98);
+  }
+}
+
+/*
+ * View Transition 默认动画样式
+ * NOTE: 400ms 时长让动画更明显，使用 ease-in-out 实现平滑过渡
+ */
+::view-transition-old(root) {
+  animation: page-fade-out 400ms ease-in-out forwards;
+}
+
+::view-transition-new(root) {
+  animation: page-fade-in 400ms ease-in-out forwards;
+}
+
+/* 确保新旧视图层级正确 */
+::view-transition-old(root) {
+  z-index: 1;
+}
+
+::view-transition-new(root) {
+  z-index: 2;
+}

@@ -85,13 +85,30 @@ export default {
     app.component('Links', Links)
     app.component('Card', Card)
     app.component('BoxCube', BoxCube)
-    app.component('Linkcard' , Linkcard)
-    app.component('MNavLinks' , MNavLinks)
+    app.component('Linkcard', Linkcard)
+    app.component('MNavLinks', MNavLinks)
     app.component('update', update)
-    app.component('ArticleMetadata' , ArticleMetadata)
+    app.component('ArticleMetadata', ArticleMetadata)
 
     // 彩虹背景动画样式
     if (typeof window === 'undefined') return
+
+    // 页面切换动画：使用 View Transitions API
+    // NOTE: 仅在浏览器支持且用户未禁用动画时启用
+    const enableTransitions = () =>
+      'startViewTransition' in document &&
+      window.matchMedia('(prefers-reduced-motion: no-preference)').matches
+
+    router.onBeforeRouteChange = () => {
+      if (!enableTransitions()) return
+      // 返回 Promise 让 VitePress 等待 transition 完成
+      return new Promise<void>(resolve => {
+        (document as any).startViewTransition(async () => {
+          resolve()
+          await nextTick()
+        })
+      })
+    }
 
     watch(
       () => router.route.data.relativePath,

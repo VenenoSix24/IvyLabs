@@ -27,10 +27,21 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     )}px at ${x}px ${y}px)`
   ]
 
-  await document.startViewTransition(async () => {
+  // 标记为颜色模式切换，用于区分页面切换动画
+  // NOTE: 必须在 startViewTransition 之前添加，确保快照捕获时 class 已存在
+  document.documentElement.classList.add('theme-transitioning')
+
+  const transition = document.startViewTransition(async () => {
     isDark.value = !isDark.value
     await nextTick()
-  }).ready
+  })
+
+  // 监听 transition 完成（包括动画），然后移除标记
+  transition.finished.then(() => {
+    document.documentElement.classList.remove('theme-transitioning')
+  })
+
+  await transition.ready
 
   document.documentElement.animate(
     { clipPath: isDark.value ? clipPath.reverse() : clipPath },
@@ -61,20 +72,25 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </template>
 
 <style>
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation: none;
+/* 
+ * 颜色模式切换时的动画样式
+ * NOTE: 颜色模式切换时禁用页面过渡动画，使用自定义的 clipPath 圆形扩展动画
+ * 使用 !important 确保覆盖 page-transition.css 中的样式
+ */
+html.theme-transitioning::view-transition-old(root),
+html.theme-transitioning::view-transition-new(root) {
+  animation: none !important;
   mix-blend-mode: normal;
 }
 
-::view-transition-old(root),
-.dark::view-transition-new(root) {
-  z-index: 1;
+html.theme-transitioning::view-transition-old(root),
+html.theme-transitioning.dark::view-transition-new(root) {
+  z-index: 1 !important;
 }
 
-::view-transition-new(root),
-.dark::view-transition-old(root) {
-  z-index: 9999;
+html.theme-transitioning::view-transition-new(root),
+html.theme-transitioning.dark::view-transition-old(root) {
+  z-index: 9999 !important;
 }
 
 /* 恢复原始开关按钮 */
